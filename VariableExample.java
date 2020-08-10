@@ -9,8 +9,3 @@ public class VariableExample {
 	}
 }
 
-
-/*main : main 메소드를 처리를 하겠다.
-  (String[] args) : 매개변수
-   int value1=10 - value1이라는 정수형 변수에 10을 담겠다
-*/
