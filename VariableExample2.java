@@ -1,11 +1,17 @@
 public class VariableExample2 {
 	public static void main (String[] args){
 		
-	int n1=10;
-	int n2=20;, n3=30;
-	System.out.println("15+25=" + (15+25));
-	System.out.println("25+35=" + (25+35));
-	System.out.println("30+10=" + (30+10));
+	int n1=15;
+	n1 = 20;
+	int n2=25, n3=35;
+	System.out.println(n1 + "+" + n2 + "=" + (n1+n2));
+	System.out.println(n2 + "+" + n3 + "=" + (n2+n3));
+	System.out.println(n3 + "+" + n1 + "=" + (n3+n1));
 	
+	int value;
+	value = 5;
+	value = 6;
+	int result = value + 10;
+	System.out.println(result);
 	}
 }
